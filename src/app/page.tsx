@@ -36,7 +36,7 @@ export default function LandingPage() {
             { name: "Services", id: "#services" },
             { name: "Gallery", id: "#gallery" },
             { name: "Reviews", id: "#reviews" },
-            { name: "Contact", id: "#contact" },
+            { name: "Contact", id: "#contact" }
           ]}
           button={{
             text: "Get a Free Quote",            href: "#contact"}}
@@ -67,11 +67,10 @@ export default function LandingPage() {
           ]}
           buttons={[
             { text: "Get Free Quotation", href: "#contact" },
-            { text: "WhatsApp Us", href: "https://wa.me/919266703585" },
+            { text: "WhatsApp Us", href: "https://wa.me/919266703585" }
           ]}
           carouselPosition="right"
           ariaLabel="Hero section"
-          useInvertedBackground={true}
         />
       </div>
 
@@ -199,11 +198,11 @@ export default function LandingPage() {
           inputs={[
             { name: "name", type: "text", placeholder: "Your Name", required: true },
             { name: "email", type: "email", placeholder: "Your Email", required: true },
-            { name: "phone", type: "tel", placeholder: "Your Phone Number", required: true },
+            { name: "phone", type: "tel", placeholder: "Your Phone Number", required: true }
           ]}
           textarea={{
             name: "message",            placeholder: "Tell us about your project...",            rows: 4,
-            required: false,
+            required: false
           }}
           useInvertedBackground={true}
           imageSrc="http://img.b2bpic.net/free-photo/happy-colleagues-sitting-near-coffee-while-work-with-laptops_171337-16865.jpg"
